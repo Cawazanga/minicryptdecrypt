@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
-int main() {
-    FILE *i = fopen("table.gсf", "r");
+int main(int argc, char **argv) {
+    FILE *i = fopen(argv[1], "r");
     char name[48];
     char outputname[48];
     char typesh[48];
