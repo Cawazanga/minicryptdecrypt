@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-
 int main(int argc, char **argv) {
     FILE *i = fopen(argv[1], "r");
     char name[48];
